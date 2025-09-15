@@ -174,8 +174,10 @@ borough_analysis = schools.groupby('borough')['total_SAT'].agg(['count', 'mean',
 - **Month 22-24:** Program optimization and expansion planning
 
 ## Project Lead Contact
+**Abhinav Konagala - Data Analyst**  
+[abhinavkonagala@duck.com](mailto:abhinavkonagala@duck.com)  
+[LinkedIn Profile](https://www.linkedin.com/in/abhinav-konagala/)  
+[Portfolio](https://github.com/abhinavkonagala)
 
-**[Abhinav Konagala] - Data Analyst**  
-[abhinavkonagala@duck.com]  
-[LinkedIn Profile]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/abhinav-konagala/))
+*Specialized in educational performance analytics, resource optimization, and stakeholder-focused data storytelling*
 
