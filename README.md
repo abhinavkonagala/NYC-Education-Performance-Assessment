@@ -83,6 +83,7 @@ Strategic analysis of NYC public school SAT performance data, identifying top-pe
 ## Methodology & Technical Implementation
 
 ### Data Processing Pipeline
+```python
 # Excellence threshold analysis (80% of 800-point maximum)
 best_math_schools = schools[schools['average_math'] >= 640][['school_name','average_math']].sort_values('average_math', ascending=False)
 
@@ -93,6 +94,7 @@ top_10_schools = schools.sort_values('total_SAT', ascending=False)[['school_name
 # Borough-level performance variability
 borough_stats = schools.groupby('borough')['total_SAT'].agg(['count','mean','std']).round(2)
 largest_std_dev = borough_stats[borough_stats['std'] == borough_stats['std'].max()]
+```
 
 ### Key Performance Indicators (KPIs)
 - **Math Excellence Rate:** % schools ≥640 math score (2.7% baseline)
